@@ -1,0 +1,65 @@
+.carrossel_titulo2{
+    text-align: center;
+    font-size: 1.125rem;
+    color: var(--azul); 
+    font-weight:700 ;
+    font-style: normal;
+    background-color: rgb(124, 108, 89);
+    padding: 1em;
+    text-transform: uppercase;
+}
+.swiper-slide img {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinhe as imagens pelo topo */
+}
+.swiper-wrapper{
+    position: initial;
+    margin: 0.5em;
+
+}
+.swiper-pagination2{
+    position: initial;
+   ;
+
+}
+.card2{
+    display: inline-block;
+    background-color: var(--verde);  
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 12px 6px 10px rgba(0, 92, 57, 0.534);
+
+  }
+   .infos2{
+  display: flex;
+  justify-content: space-between;
+      }
+  .card_botoes2{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  @media (min-width: 800px) {
+    .cot_mae{
+        display: flex;
+        justify-content: space-between; /* Distribui os containers com espaço entre eles */
+        gap: 20px; /* Define a distância entre os containers */
+        width: 100%;
+    }
+
+    
+    .swiper{
+    width: 45%;
+    margin-top: 3em;
+
+}
+.card2 {
+    width: 45%;
+    margin-right: 0; /* Remove a margem direita do .card, já que o gap será usado */
+}
+
+
+  }
+  

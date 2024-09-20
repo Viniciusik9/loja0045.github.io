@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lojinha</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <div class="cabecalho_container">   
+            <span class="cabecalho__menu-hamburguer cabecalho_link"></span>
+         
+            <img src="assets/Logo.svg" alt="Logo da Codebooks">
+        </div>   
+        
+        <div class="cabecalho_container">    
+             <a href="#" class="cabecalho_link">
+             <img src="assets/Favoritos.svg" alt=" Favoritos">
+             </a>
+             <a href="#" class="cabecalho_link">
+             <img src="assets/Compras.svg" alt=" Carrinho de Compras">
+             </a>
+             <a href="#" class="cabecalho_link">
+             <img src="assets/Usuario (1).png" alt=" usuários">
+             </a>
+        </div>
+  
+    
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2 class="banner_titulo">
+                Já sabe por onde começar
+             </h2>
+             <p class="banner_texto">
+                Encontre as nossas estantes
+             </p>
+             <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura">
+         </section>
+         
+         
+     
+         
+       
+         <section class="carroseel">
+             <h2 class="carrossel_titulo">
+                 Novos lançamentos
+             </h2>
+                        <!-- Slider main container -->
+            <div class="cot_pai">
+                <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/ApacheKafka.png" alt="livro ApacheKafka"></div>
+                        <div class="swiper-slide"><img src="assets/Arquitetura.png" alt="Livro Arquitetura"></div>
+                        <div class="swiper-slide"><img src="assets/ReactNative.png" alt="Livro ReactNative"></div>
+                        <div class="swiper-slide"><img src="assets/Gestão2.png" alt="Livro Gestão2"></div>
+                        ...
+                    </div>
+            
+                </div>
+                <div class="card"> <!--cartão inteiro-->
+                
+                    <!--linha 1-->        
+                    <div class="infos">
+                    <div>
+                    <h3>   Talvez você também se interesse por...</h3>
+                    <h2>Angular 11 e Firebase</h2>
+                    <p>Construindo uma aplicação integrada com a plataforma do google</p>
+                    </div>
+                    <img src="assets/Perfil-escritora 2.svg" alt="Simbolo do Anguular(a gigante)">
+                    </div>
+                    <!--linha 2-->  
+                    <div class="card_botoes">
+                    <div>
+                            <img src="assets/Favoritos.svg" alt="Icone de Favoritos">
+                            <img src="assets/Sacola.png" alt="Icone e compras ">
+                    </div>
+                    <h4 href="#" class="botuao"> Saiba mais</h4>
+                    
+                    </div>
+
+                </div>
+             </div>
+         </section>
+         <section class="mais_vendidos"> <!--segunda parte site-->  
+
+
+            <h2 class="carrossel_titulo">
+              Mais vendidos
+            </h2>
+                       <!-- Slider main container -->
+            <div class="cot_mae">
+                <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/ApacheKafka.png" alt="livro ApacheKafka"></div>
+                    <div class="swiper-slide"><img src="assets/Arquitetura.png" alt="Livro Arquitetura"></div>
+                    <div class="swiper-slide"><img src="assets/ReactNative.png" alt="Livro ReactNative"></div>
+                    <div class="swiper-slide"><img src="assets/Gestão2.png" alt="Livro Gestão2"></div>
+                    ...
+                    </div>
+            
+                </div>
+            <div class="card2"> <!--cartão inteiro-->
+              
+               <!--linha 1-->        
+               <div class="infos">
+                <div>
+                <img src="assets/Estrelinhas.png" alt="Estrelinhas">
+                    <h3>Autora do mês</h3>
+                <h2>Juliana Agarikov</h2>
+                <p>Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                 </div>
+                 <img src="assets/Perfil-escritora 1.png" alt="Simbolo do Anguular(a gigante)">
+               </div>
+                <!--linha 2-->  
+               <div class="card_botoes">
+                  <div>
+                       <img src="assets/Favoritos.svg" alt="Icone de Favoritos">
+                       <img src="assets/Sacola.png" alt="Icone e compras ">
+                  </div>
+                  <h4 href="#" class="botuao"> Saiba mais</h4>
+                
+               </div>
+
+            </div>
+            </div>
+         </section>
+         <section class="recentes">   <!--Terceira parte site-->  
+            <div class="titulor">
+            
+                  Tópicos visitados recentemente
+            </div>
+            <div class="botoes">
+                <h1>
+                        <button class="botao-palavra">Android</button>
+                        <button class="botao-palavra">Marketing Digital</button>
+                        <button class="botao-palavra">Agile</button>
+                </h1>
+                <h2>
+                        <button class="botao-palavra2">Startups</button>
+                        <button class="botao-palavra2">HTML & CSS</button>
+                        <button class="botao-palavra2">Python</button>
+                </h2>
+                <h3>
+                        <button class="botao-palavra3">OO</button>
+                        <button class="botao-palavra3">Java</button>
+                        
+                </h3>
+                 
+
+            </div>
+         </section>
+
+         <section class=" Novidades">
+            <div class="texto">
+                <strong class="titulo">Fique por dentro das novidades!</strong>
+                Atualizações de e-books, novos livros, promoções e outros.
+
+            </div>
+            <div class="pesquisa">
+                <input type="search" class="banner_pesquisa" placeholder="Cadastre seu email">
+            
+            </div>
+         </section>
+     </main>
+     <script>const swiper = new Swiper('.swiper', {
+             
+             spaceBetween: 10,
+             slidesPerView:3,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        type: 'bullets',
+            },
+        });
+    </script>
+    <footer>
+        <section class="rodape">
+
+            Feito
+        </section>
+    </footer>
+</body>
+</html>

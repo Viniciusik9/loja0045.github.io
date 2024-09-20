@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(bestsellers.css);
+@import url(recents.css);
+@import url(news.css);
+@import url(rodape.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+
+    --cor-fundo1: #abc7a1;
+    --cor-fundo2: #4a837b;
+    --fonte-principal: "poppins";
+    --degrade: linear-gradient(97.54deg,   #679c70  35.49%, #155210 165.37%);
+    --azul: #002e52;
+    --azuls: #0a84e2;
+    --branco: #ffffff;
+    --verde:  #8aa883;
+   
+}
+body{
+   background-color: var(--cor-fundo1);
+   font-family: var(--fonte-principal);
+   font-size: 16px;
+   font-weight: 400;
+}
+@media(max-width:800px){
